@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "889968752419",
+    "project_id": "dreamcraft-89630",
+    "storage_bucket": "dreamcraft-89630.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889968752419:android:1224a90a77167ec242be96",
+        "android_client_info": {
+          "package_name": "com.example.dreamcraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889968752419-hmf04821rkal4brtp3ejkil1c507u5ou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-OW49xqbXROu6H9OP7oy5oOW1Gy4vDGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889968752419-hmf04821rkal4brtp3ejkil1c507u5ou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

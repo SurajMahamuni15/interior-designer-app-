@@ -15,16 +15,16 @@ import com.example.dreamcraft.utils.Constants.WHATSAPP_LINK
 import com.example.dreamcraft.utils.isValidEmail
 import com.example.dreamcraft.utils.isValidName
 import com.example.dreamcraft.utils.validation
+import com.google.firebase.database.DatabaseReference
 
 
 class ClientDetailsFragment : Fragment() {
     private var _binding: FragmentClientDetailsBinding? = null
     private val binding get() = _binding!!
+    private lateinit var dataBase : DatabaseReference
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
     }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
