@@ -5,6 +5,10 @@
         android:checkable="true"
         android:icon="@drawable/ic_home"
         android:title="@string/home" />
-
+    <item
+        android:id="@+id/contact_me"
+        android:checkable="true"
+        android:icon="@drawable/ic_contact"
+        android:title="@string/contact_us" />
 
 </menu>

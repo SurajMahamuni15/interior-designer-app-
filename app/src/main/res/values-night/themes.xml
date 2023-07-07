@@ -40,4 +40,7 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">16dp</item>
     </style>
+    <style name="screenBg" parent="">
+        <item name="android:background">@color/screenBgDark</item>
+    </style>
 </resources>

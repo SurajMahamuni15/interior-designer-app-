@@ -30,6 +30,9 @@ class MainActivity : AppCompatActivity() {
                     binding.bottomNavigationView.menu.findItem(R.id.home_).isChecked = true
                     binding.bottomNavigationView.visibility = View.VISIBLE
                 }
+                R.id.clientDetailsFragment -> {
+                    binding.bottomNavigationView.visibility = View.VISIBLE
+                }
                 else -> {
                     binding.bottomNavigationView.visibility = View.GONE
                 }
@@ -42,6 +45,10 @@ class MainActivity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.home_ -> {
                     navController.navigate(R.id.homeFragment)
+                    true
+                }
+                R.id.contact_me -> {
+                    navController.navigate(R.id.clientDetailsFragment)
                     true
                 }
                 else -> {

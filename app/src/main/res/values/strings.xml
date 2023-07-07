@@ -29,4 +29,6 @@
     <string name="home">Home</string>
     <string name="dream_craft">Dream Craft</string>
     <string name="previous_sites">Previous Work</string>
+    <string name="craft_my_site">Craft My Site</string>
+    <string name="contact_us">Contact Us</string>
 </resources>

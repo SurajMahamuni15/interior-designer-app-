@@ -36,10 +36,13 @@
         <item name="titleTextColor">@color/white</item>
     </style>
     <style name="cardBackground" parent="">
-        <item name="android:background">#EEF3FC</item>
+        <item name="android:background">#D4E2FB</item>
     </style>
     <style name="CircleImage" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">16dp</item>
+    </style>
+    <style name="screenBg" parent="">
+        <item name="android:background">@color/screenBg</item>
     </style>
 </resources>
